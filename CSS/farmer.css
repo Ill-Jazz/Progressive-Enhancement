@@ -1,0 +1,107 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    letter-spacing: 1.7px;
+    color: #3D3D3D;
+    max-width: 90%;
+    background: linear-gradient(-47deg, rgb(241, 244, 244), rgb(224, 224, 224));
+    /* background-image:url(zen4.jpg);
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    background-size: cover; */
+    
+}
+
+
+.mainsection {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.story {
+    width: 100%;
+    margin-left: 10%;
+}
+
+a { 
+    color:rgb(230, 78, 7);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:link { 
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(111, 131, 0);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(90, 136, 179);
+    text-decoration: none;
+}
+
+q {
+    max-width:50%;
+    background-color:rgb(227, 229, 230);
+    margin: 0 auto;
+    font-size: 1.6em;
+    border-left-style: dashed;
+    border-left-width:3px;
+    padding-left: 30px;
+    margin-top:80px;
+    margin-bottom:80px; 
+    
+}
+
+blockquote {
+    max-width: 50%;
+    background-color: rgb(227, 229, 230);
+    margin: 0 auto;
+    border-left-style: dashed;
+    border-left-width:3px;
+    padding-left: 30px;
+    margin-top:80px;
+    margin-bottom:80px; 
+}
+.quote {
+    font-style: italic;
+}
+
+.farmer {
+    border-left-color: rgb(1, 53, 1);
+}
+
+.villagers {
+    border-left-color: rgb(255, 208, 0);
+}
+
+header>h1 {
+    background-color: yellow;
+}
+
+.good {
+    color:green;
+    text-transform: capitalize;
+}
+
+.bad {
+    color:red;
+    text-transform: capitalize;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(227, 229, 230);
+}
+
+tr:nth-child(odd) {
+    background-color:whitesmoke;
+}
+
+.Story>p:first-of-type {
+    font-weight: bold;
+}
